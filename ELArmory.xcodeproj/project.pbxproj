@@ -19,6 +19,8 @@
 		459A3AF4195B5E3C0050A444 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 459A3ADC195B5E3C0050A444 /* UIKit.framework */; };
 		459A3AFC195B5E3C0050A444 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 459A3AFA195B5E3C0050A444 /* InfoPlist.strings */; };
 		459A3AFE195B5E3C0050A444 /* ELArmoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3AFD195B5E3C0050A444 /* ELArmoryTests.m */; };
+		459A3B0A195B60E70050A444 /* ELHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3B08195B60E70050A444 /* ELHomeViewController.m */; };
+		459A3B0B195B60E70050A444 /* ELHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459A3B09195B60E70050A444 /* ELHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		459A3AF9195B5E3C0050A444 /* ELArmoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELArmoryTests-Info.plist"; sourceTree = "<group>"; };
 		459A3AFB195B5E3C0050A444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		459A3AFD195B5E3C0050A444 /* ELArmoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELArmoryTests.m; sourceTree = "<group>"; };
+		459A3B07195B60E70050A444 /* ELHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELHomeViewController.h; sourceTree = "<group>"; };
+		459A3B08195B60E70050A444 /* ELHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELHomeViewController.m; sourceTree = "<group>"; };
+		459A3B09195B60E70050A444 /* ELHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELHomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				459A3AE7195B5E3C0050A444 /* ELAppDelegate.h */,
 				459A3AE8195B5E3C0050A444 /* ELAppDelegate.m */,
+				459A3B07195B60E70050A444 /* ELHomeViewController.h */,
+				459A3B08195B60E70050A444 /* ELHomeViewController.m */,
+				459A3B09195B60E70050A444 /* ELHomeViewController.xib */,
 				459A3AEA195B5E3C0050A444 /* Images.xcassets */,
 				459A3ADF195B5E3C0050A444 /* Supporting Files */,
 			);
@@ -222,6 +230,7 @@
 			files = (
 				459A3AE3195B5E3C0050A444 /* InfoPlist.strings in Resources */,
 				459A3AEB195B5E3C0050A444 /* Images.xcassets in Resources */,
+				459A3B0B195B60E70050A444 /* ELHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				459A3AE5195B5E3C0050A444 /* main.m in Sources */,
+				459A3B0A195B60E70050A444 /* ELHomeViewController.m in Sources */,
 				459A3AE9195B5E3C0050A444 /* ELAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
