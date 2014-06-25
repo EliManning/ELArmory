@@ -1,5 +1,5 @@
 //
-//  ELHomeViewController.h
+//  ELHomeListTableViewController.h
 //  ELArmory
 //
 //  Created by Er Li on 6/25/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ELHomeViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@interface ELHomeListTableViewController : UITableViewController
 
 @end

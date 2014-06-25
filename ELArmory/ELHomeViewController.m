@@ -7,7 +7,7 @@
 //
 
 #import "ELHomeViewController.h"
-
+#import "ELHomeListTableViewController.h"
 @interface ELHomeViewController ()
 
 @end
@@ -26,6 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    ELHomeListTableViewController *homeList = [[ELHomeListTableViewController alloc]init];
+    homeList.view.frame = self.view.frame;
+    [self.view addSubview:homeList.view];
     // Do any additional setup after loading the view from its nib.
 }
 

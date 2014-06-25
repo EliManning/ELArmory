@@ -21,6 +21,10 @@
 		459A3AFE195B5E3C0050A444 /* ELArmoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3AFD195B5E3C0050A444 /* ELArmoryTests.m */; };
 		459A3B0A195B60E70050A444 /* ELHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3B08195B60E70050A444 /* ELHomeViewController.m */; };
 		459A3B0B195B60E70050A444 /* ELHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459A3B09195B60E70050A444 /* ELHomeViewController.xib */; };
+		459A3B0F195B6EA20050A444 /* ELHomeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3B0D195B6EA20050A444 /* ELHomeListTableViewController.m */; };
+		459A3B10195B6EA20050A444 /* ELHomeListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459A3B0E195B6EA20050A444 /* ELHomeListTableViewController.xib */; };
+		459A3B14195B72AD0050A444 /* ELHomeListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A3B12195B72AD0050A444 /* ELHomeListTableViewCell.m */; };
+		459A3B15195B72AD0050A444 /* ELHomeListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 459A3B13195B72AD0050A444 /* ELHomeListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		459A3B07195B60E70050A444 /* ELHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELHomeViewController.h; sourceTree = "<group>"; };
 		459A3B08195B60E70050A444 /* ELHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELHomeViewController.m; sourceTree = "<group>"; };
 		459A3B09195B60E70050A444 /* ELHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELHomeViewController.xib; sourceTree = "<group>"; };
+		459A3B0C195B6EA20050A444 /* ELHomeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELHomeListTableViewController.h; sourceTree = "<group>"; };
+		459A3B0D195B6EA20050A444 /* ELHomeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELHomeListTableViewController.m; sourceTree = "<group>"; };
+		459A3B0E195B6EA20050A444 /* ELHomeListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELHomeListTableViewController.xib; sourceTree = "<group>"; };
+		459A3B11195B72AD0050A444 /* ELHomeListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELHomeListTableViewCell.h; sourceTree = "<group>"; };
+		459A3B12195B72AD0050A444 /* ELHomeListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELHomeListTableViewCell.m; sourceTree = "<group>"; };
+		459A3B13195B72AD0050A444 /* ELHomeListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELHomeListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +124,7 @@
 			children = (
 				459A3AE7195B5E3C0050A444 /* ELAppDelegate.h */,
 				459A3AE8195B5E3C0050A444 /* ELAppDelegate.m */,
-				459A3B07195B60E70050A444 /* ELHomeViewController.h */,
-				459A3B08195B60E70050A444 /* ELHomeViewController.m */,
-				459A3B09195B60E70050A444 /* ELHomeViewController.xib */,
+				459A3B17195B72C00050A444 /* Home View */,
 				459A3AEA195B5E3C0050A444 /* Images.xcassets */,
 				459A3ADF195B5E3C0050A444 /* Supporting Files */,
 			);
@@ -150,6 +158,22 @@
 				459A3AFA195B5E3C0050A444 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		459A3B17195B72C00050A444 /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				459A3B07195B60E70050A444 /* ELHomeViewController.h */,
+				459A3B08195B60E70050A444 /* ELHomeViewController.m */,
+				459A3B09195B60E70050A444 /* ELHomeViewController.xib */,
+				459A3B0C195B6EA20050A444 /* ELHomeListTableViewController.h */,
+				459A3B0D195B6EA20050A444 /* ELHomeListTableViewController.m */,
+				459A3B0E195B6EA20050A444 /* ELHomeListTableViewController.xib */,
+				459A3B11195B72AD0050A444 /* ELHomeListTableViewCell.h */,
+				459A3B12195B72AD0050A444 /* ELHomeListTableViewCell.m */,
+				459A3B13195B72AD0050A444 /* ELHomeListTableViewCell.xib */,
+			);
+			name = "Home View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				459A3AE3195B5E3C0050A444 /* InfoPlist.strings in Resources */,
+				459A3B15195B72AD0050A444 /* ELHomeListTableViewCell.xib in Resources */,
+				459A3B10195B6EA20050A444 /* ELHomeListTableViewController.xib in Resources */,
 				459A3AEB195B5E3C0050A444 /* Images.xcassets in Resources */,
 				459A3B0B195B60E70050A444 /* ELHomeViewController.xib in Resources */,
 			);
@@ -252,6 +278,8 @@
 				459A3AE5195B5E3C0050A444 /* main.m in Sources */,
 				459A3B0A195B60E70050A444 /* ELHomeViewController.m in Sources */,
 				459A3AE9195B5E3C0050A444 /* ELAppDelegate.m in Sources */,
+				459A3B0F195B6EA20050A444 /* ELHomeListTableViewController.m in Sources */,
+				459A3B14195B72AD0050A444 /* ELHomeListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

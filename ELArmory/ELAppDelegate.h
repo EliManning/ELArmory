@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ELHomeViewController.h"
 
 @interface ELAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) ELHomeViewController *viewController;
 
 @end
