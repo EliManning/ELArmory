@@ -1,7 +1,6 @@
-iOS Exercise
 
-To be a good iOS developer.
+Be a good iOS developer
 
-Tuning skills.
+Tuning skills
 
-Vision big.
+Vision big
